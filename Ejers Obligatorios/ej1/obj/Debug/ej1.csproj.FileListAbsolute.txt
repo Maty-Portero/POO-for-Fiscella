@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\bin\Debug\ej1.exe.config
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\bin\Debug\ej1.exe
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\bin\Debug\ej1.pdb
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\obj\Debug\ej1.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\obj\Debug\ej1.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\obj\Debug\ej1.exe
+C:\xampp\htdocs\Portero 5°10°\Cole\5°10°\Laboratorio de POO\Portero\C#\ejers_obligatorios\ej1\obj\Debug\ej1.pdb
