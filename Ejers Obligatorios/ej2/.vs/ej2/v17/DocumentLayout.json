@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej1\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C878623-A8EA-4810-8C3E-8407B15B5C02}|ej1.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C878623-A8EA-4810-8C3E-8407B15B5C02}|ej1.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B5BFAAE-9A4A-4050-9209-6618C5434164}|ej2.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5BFAAE-9A4A-4050-9209-6618C5434164}|ej2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9C878623-A8EA-4810-8C3E-8407B15B5C02}|ej1.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej1\\cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C878623-A8EA-4810-8C3E-8407B15B5C02}|ej1.csproj|solutionrelative:cuenta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B5BFAAE-9A4A-4050-9209-6618C5434164}|ej2.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej2\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B5BFAAE-9A4A-4050-9209-6618C5434164}|ej2.csproj|solutionrelative:persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -51,27 +51,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Cuenta.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej1\\Cuenta.cs",
-              "RelativeDocumentMoniker": "Cuenta.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej1\\Cuenta.cs",
-              "RelativeToolTip": "Cuenta.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej2\\Persona.cs",
+              "RelativeDocumentMoniker": "Persona.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej2\\Persona.cs",
+              "RelativeToolTip": "Persona.cs",
+              "ViewState": "AQIAADkAAAAAAAAAAAAkwEoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T17:20:26.167Z",
+              "WhenOpened": "2024-08-11T20:34:03.153Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej1\\Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej2\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej1\\Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwCgAAAAAAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwCYAAAB9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-09T17:20:03.118Z",
+              "WhenOpened": "2024-08-11T20:16:48.562Z",
               "EditorCaption": ""
             }
           ]
