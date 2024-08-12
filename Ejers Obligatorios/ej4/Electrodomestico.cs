@@ -38,17 +38,165 @@ namespace ej4
 
         public double GetPrecioBase()
         {
-            return precioBase;
+            return PrecioBase;
         }
 
         public string GetColor()
         {
-            return color;
+            return Color;
         }
 
         public char GetConsumoEnergetico()
         {
-            return consumoEnergetico;
+            return ConsumoEnergetico;
+        }
+
+        public double GetPeso()
+        {
+            return Peso;
+        }
+
+        public void ComprobarConsumoEnergetico(char letra)
+        {
+            if (letra <= 65 && letra >= 70)
+            {
+                ConsumoEnergetico = 'F';
+            }
+        }
+
+        public void comprobarColor(string color)
+        {
+            bool es = false;
+            string[] colores = { "blanco", "negro", "rojo", "azul", "gris"};
+            foreach (string colo in colores)
+            {
+                if (colo == color)
+                {
+                    es = true;
+                }
+            }
+            if(es == false)
+            {
+                Color = "Blanco";
+            }
+        }
+
+        public virtual void PrecioFinal()
+        {
+            if (ConsumoEnergetico == 'A')
+            {
+                if (Peso > 0 && Peso < 19)
+                {
+                    PrecioBase += 110;
+                }
+                else if (Peso > 20 && Peso < 49)
+                {
+                    PrecioBase += 160;
+                }
+                else if (Peso > 50 && Peso < 79)
+                {
+                    PrecioBase += 180;
+                }
+                else if (Peso > 80)
+                {
+                    PrecioBase += 200;
+                }
+            }
+            else if (ConsumoEnergetico == 'B')
+            {
+                if (Peso > 0 && Peso < 19)
+                {
+                    PrecioBase += 90;
+                }
+                else if (Peso > 20 && Peso < 49)
+                {
+                    PrecioBase += 130;
+                }
+                else if (Peso > 50 && Peso < 79)
+                {
+                    PrecioBase += 160;
+                }
+                else if (Peso > 80)
+                {
+                    PrecioBase += 180;
+                }
+            }
+            else if (ConsumoEnergetico == 'C')
+            {
+                if (Peso > 0 && Peso < 19)
+                {
+                    PrecioBase += 70;
+                }
+                else if (Peso > 20 && Peso < 49)
+                {
+                    PrecioBase += 110;
+                }
+                else if (Peso > 50 && Peso < 79)
+                {
+                    PrecioBase += 140;
+                }
+                else if (Peso > 80)
+                {
+                    PrecioBase += 160;
+                }
+            }
+            else if (ConsumoEnergetico == 'D')
+            {
+                if (Peso > 0 && Peso < 19)
+                {
+                    PrecioBase += 60;
+                }
+                else if (Peso > 20 && Peso < 49)
+                {
+                    PrecioBase += 110;
+                }
+                else if (Peso > 50 && Peso < 79)
+                {
+                    PrecioBase += 130;
+                }
+                else if (Peso > 80)
+                {
+                    PrecioBase += 150;
+                }
+            }
+            else if (ConsumoEnergetico == 'E')
+            {
+                if (Peso > 0 && Peso < 19)
+                {
+                    PrecioBase += 40;
+                }
+                else if (Peso > 20 && Peso < 49)
+                {
+                    PrecioBase += 80;
+                }
+                else if (Peso > 50 && Peso < 79)
+                {
+                    PrecioBase += 110;
+                }
+                else if (Peso > 80)
+                {
+                    PrecioBase += 130;
+                }
+            }
+            else if (ConsumoEnergetico == 'F')
+            {
+                if (Peso > 0 && Peso < 19)
+                {
+                    PrecioBase += 20;
+                }
+                else if (Peso > 20 && Peso < 49)
+                {
+                    PrecioBase += 60;
+                }
+                else if (Peso > 50 && Peso < 79)
+                {
+                    PrecioBase += 90;
+                }
+                else if (Peso > 80)
+                {
+                    PrecioBase += 110;
+                }
+            }
         }
     }
 }
