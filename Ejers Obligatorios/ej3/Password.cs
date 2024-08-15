@@ -16,20 +16,31 @@ namespace ej3
 
         public Password()
         {
-            longitud = 8;
-            contrasenia = "";
+            Longitud = 8;
+            Contrasenia = "";
         }
 
         public Password(int longitud)
         {
-            this.longitud = longitud;
+            this.Longitud = longitud;
             generarPassword();
         }
 
-        public void generarPassword()
+        public string generarPassword()
         {
-            Random r = new Random();
-            int passwor = r.Next(00000000, 99999999);
+            const string alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+            StringBuilder token = new StringBuilder();
+            Random rnd = new Random();
+
+            for (int i = 0; i < longitud; i++)
+            {
+                int indice = rnd.Next(alfabeto.Length);
+                token.Append(alfabeto[indice]);
+            }
+
+            Contrasenia = token.ToString();
+
+            return Contrasenia;
         }
 
         public bool esFuerte()

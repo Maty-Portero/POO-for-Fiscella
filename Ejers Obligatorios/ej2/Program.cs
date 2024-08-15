@@ -12,7 +12,7 @@ namespace ej2
         {
             List<Persona> list = new List<Persona>();
 
-            for (int i = 0; i > 3; i++) {
+            for (int i = 0; i < 3; i++) {
                 string name;
                 Console.WriteLine("Ingrese su nombre: ");
                 name = Console.ReadLine();

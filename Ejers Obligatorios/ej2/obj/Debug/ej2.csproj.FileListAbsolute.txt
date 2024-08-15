@@ -5,3 +5,10 @@ C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej2\bin\Debu
 C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej2\bin\Debug\ej2.pdb
 C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej2\obj\Debug\ej2.exe
 C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej2\obj\Debug\ej2.pdb
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\bin\Debug\ej2.exe.config
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\bin\Debug\ej2.exe
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\bin\Debug\ej2.pdb
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\obj\Debug\ej2.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\obj\Debug\ej2.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\obj\Debug\ej2.exe
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej2\obj\Debug\ej2.pdb
