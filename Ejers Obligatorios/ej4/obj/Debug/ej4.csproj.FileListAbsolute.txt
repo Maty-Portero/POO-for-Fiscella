@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\obj\Debug\ej4.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\obj\Debug\ej4.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\bin\Debug\ej4.exe.config
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\bin\Debug\ej4.exe
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\bin\Debug\ej4.pdb
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\obj\Debug\ej4.exe
+C:\xampp\htdocs\Portero 5°10°\POO-for-Fiscella\Ejers Obligatorios\ej4\obj\Debug\ej4.pdb

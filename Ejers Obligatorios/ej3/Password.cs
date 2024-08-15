@@ -28,8 +28,8 @@ namespace ej3
 
         public void generarPassword()
         {
-
-            //Contrasenia = contra;
+            Random r = new Random();
+            int passwor = r.Next(00000000, 99999999);
         }
 
         public bool esFuerte()

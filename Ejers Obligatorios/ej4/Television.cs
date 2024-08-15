@@ -34,17 +34,18 @@ namespace ej4
             return SintetizadorTDT;
         }
 
-        public override void PrecioFinal()
+        public override double PrecioFinal()
         {
             base.PrecioFinal();
             if (Resolucion > 40)
             {
-                PrecioBase += (PrecioBase * 30) / 100;
                 if (SintetizadorTDT == true)
                 {
-                    PrecioBase += 50;
+                    return PrecioBase + 50;
                 }
+                return PrecioBase + (PrecioBase * 30) / 100;
             }
+            return 0;
         }
     }
 }

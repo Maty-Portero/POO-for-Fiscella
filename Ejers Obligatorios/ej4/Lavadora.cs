@@ -26,16 +26,16 @@ namespace ej4
             return Carga;
         }
 
-        public override void PrecioFinal()
+        public override double PrecioFinal()
         {
             base.PrecioFinal();
             if (Carga > 30)
             {
-                PrecioBase += 50;
+                return PrecioBase + 50;
             }
             else
             {
-                PrecioBase += 0;
+                return PrecioBase + 0;
             }
         }
     }

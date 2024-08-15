@@ -81,122 +81,123 @@ namespace ej4
             }
         }
 
-        public virtual void PrecioFinal()
+        public virtual double PrecioFinal()
         {
             if (ConsumoEnergetico == 'A')
             {
                 if (Peso > 0 && Peso < 19)
                 {
-                    PrecioBase += 110;
+                    return PrecioBase + 110;
                 }
                 else if (Peso > 20 && Peso < 49)
                 {
-                    PrecioBase += 160;
+                    return PrecioBase + 160;
                 }
                 else if (Peso > 50 && Peso < 79)
                 {
-                    PrecioBase += 180;
+                    return PrecioBase + 180;
                 }
                 else if (Peso > 80)
                 {
-                    PrecioBase += 200;
+                    return PrecioBase + 200;
                 }
             }
             else if (ConsumoEnergetico == 'B')
             {
                 if (Peso > 0 && Peso < 19)
                 {
-                    PrecioBase += 90;
+                    return PrecioBase + 90;
                 }
                 else if (Peso > 20 && Peso < 49)
                 {
-                    PrecioBase += 130;
+                    return PrecioBase + 130;
                 }
                 else if (Peso > 50 && Peso < 79)
                 {
-                    PrecioBase += 160;
+                    return PrecioBase + 160;
                 }
                 else if (Peso > 80)
                 {
-                    PrecioBase += 180;
+                    return PrecioBase + 180;
                 }
             }
             else if (ConsumoEnergetico == 'C')
             {
                 if (Peso > 0 && Peso < 19)
                 {
-                    PrecioBase += 70;
+                    return PrecioBase + 70;
                 }
                 else if (Peso > 20 && Peso < 49)
                 {
-                    PrecioBase += 110;
+                    return PrecioBase + 110;
                 }
                 else if (Peso > 50 && Peso < 79)
                 {
-                    PrecioBase += 140;
+                    return PrecioBase + 140;
                 }
                 else if (Peso > 80)
                 {
-                    PrecioBase += 160;
+                    return PrecioBase + 160;
                 }
             }
             else if (ConsumoEnergetico == 'D')
             {
                 if (Peso > 0 && Peso < 19)
                 {
-                    PrecioBase += 60;
+                    return PrecioBase + 60;
                 }
                 else if (Peso > 20 && Peso < 49)
                 {
-                    PrecioBase += 110;
+                    return PrecioBase + 110;
                 }
                 else if (Peso > 50 && Peso < 79)
                 {
-                    PrecioBase += 130;
+                    return PrecioBase + 130;
                 }
                 else if (Peso > 80)
                 {
-                    PrecioBase += 150;
+                    return PrecioBase + 150;
                 }
             }
             else if (ConsumoEnergetico == 'E')
             {
                 if (Peso > 0 && Peso < 19)
                 {
-                    PrecioBase += 40;
+                    return PrecioBase + 40;
                 }
                 else if (Peso > 20 && Peso < 49)
                 {
-                    PrecioBase += 80;
+                    return PrecioBase + 80;
                 }
                 else if (Peso > 50 && Peso < 79)
                 {
-                    PrecioBase += 110;
+                    return PrecioBase + 110;
                 }
                 else if (Peso > 80)
                 {
-                    PrecioBase += 130;
+                    return PrecioBase + 130;
                 }
             }
-            else if (ConsumoEnergetico == 'F')
+            else
             {
                 if (Peso > 0 && Peso < 19)
                 {
-                    PrecioBase += 20;
+                    return PrecioBase + 20;
                 }
                 else if (Peso > 20 && Peso < 49)
                 {
-                    PrecioBase += 60;
+                    return PrecioBase + 60;
                 }
                 else if (Peso > 50 && Peso < 79)
                 {
-                    PrecioBase += 90;
+                    return PrecioBase + 90;
                 }
                 else if (Peso > 80)
                 {
-                    PrecioBase += 110;
+                    return PrecioBase + 110;
                 }
             }
+            return 0;
         }
     }
 }

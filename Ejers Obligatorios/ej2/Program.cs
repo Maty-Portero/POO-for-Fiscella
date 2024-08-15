@@ -10,7 +10,9 @@ namespace ej2
     {
         static void Main(string[] args)
         {
-            //for (int i = 0; i > 3; i++) {
+            List<Persona> list = new List<Persona>();
+
+            for (int i = 0; i > 3; i++) {
                 string name;
                 Console.WriteLine("Ingrese su nombre: ");
                 name = Console.ReadLine();
@@ -31,23 +33,26 @@ namespace ej2
                 Console.WriteLine("Ingrese su altura: ");
                 height = double.Parse(Console.ReadLine());
 
-            //}
-            Persona persona1 = new Persona(name, age, sex, weight, height);
-            Persona persona2 = new Persona(name, age, sex, 59.6, 1.79);
-            //Persona persona3 = new Persona(name, age, sex, weight, height);
+                list.Add(new Persona(name, age, sex, weight, height));
+            }
 
-            Console.WriteLine("Calculo del IMC:  -1 = peso ideal    |    0 = debajo de su peso ideal   |    1 = sobre peso");
-            Console.WriteLine("La persona 1 esta en " + persona1.calcularIMC());
-            Console.WriteLine("La persona 2 esta en " + persona2.calcularIMC());
-            //Console.WriteLine("La persona 3 esta en " + persona3.calcularIMC());
+            foreach (Persona persona in list)
+            {
+                Console.WriteLine("Calculo del IMC:  -1 = peso ideal    |    0 = debajo de su peso ideal   |    1 = sobre peso");
+                Console.WriteLine("La persona esta en " + persona.calcularIMC());
+            }
 
-            Console.WriteLine("¿Es mayor de edad?:    true = si   |   false = no");
-            Console.WriteLine("La persona 1 esta en " + persona1.esMayorDeEdad());
-            Console.WriteLine("La persona 2 esta en " + persona2.esMayorDeEdad());
-            //Console.WriteLine("La persona 3 esta en " + persona3.esMayorDeEdad());
+            foreach (Persona persona in list)
+            {
+                Console.WriteLine("¿Es mayor de edad?:    true = si   |   false = no");
+                Console.WriteLine("La persona esta en " + persona.esMayorDeEdad());
+            }
 
-            Console.WriteLine(persona1.Nombre + " tiene " + persona1.Edad + " años, su DNI es " + persona1.generaDNI() + " de sexo " + persona1.Sexo + ", pesa " + persona1.Peso + " kg, " + " y mide " + persona1.Altura + " metros.");
-            Console.WriteLine(persona2.Nombre + " tiene " + persona2.Edad + " años, su DNI es " + persona2.generaDNI() + " de sexo " + persona2.Sexo + ", pesa " + persona2.Peso + " kg, " + " y mide " + persona2.Altura + " metros.");
+            foreach(Persona persona in list)
+            {
+                Console.WriteLine(persona.Nombre + " tiene " + persona.Edad + " años, su DNI es " + persona.Dni + " de sexo " + persona.Sexo + ", pesa " + persona.Peso + " kg, " + " y mide " + persona.Altura + " metros.");
+            }
+            Console.ReadKey();
         }
     }
 }

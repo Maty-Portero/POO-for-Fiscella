@@ -1,7 +1,24 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ej4\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Television.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ej4\\Television.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ej4\\Electrodomestico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Lavadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ej4\\Lavadora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,6 +59,58 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Television.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Television.cs",
+              "RelativeDocumentMoniker": "ej4\\Television.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Television.cs",
+              "RelativeToolTip": "ej4\\Television.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T20:17:59.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Electrodomestico.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Electrodomestico.cs",
+              "RelativeDocumentMoniker": "ej4\\Electrodomestico.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Electrodomestico.cs",
+              "RelativeToolTip": "ej4\\Electrodomestico.cs",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAwwFkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T20:17:57.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Lavadora.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Lavadora.cs",
+              "RelativeDocumentMoniker": "ej4\\Lavadora.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Lavadora.cs",
+              "RelativeToolTip": "ej4\\Lavadora.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T20:17:56.865Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Program.cs",
+              "RelativeDocumentMoniker": "ej4\\Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej4\\Program.cs",
+              "RelativeToolTip": "ej4\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T20:11:58.505Z",
+              "EditorCaption": ""
             }
           ]
         }
