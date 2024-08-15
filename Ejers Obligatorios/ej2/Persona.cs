@@ -22,24 +22,13 @@ namespace ej2
         public double Peso { get { return peso; } set { peso = value; } }
         public double Altura { get { return altura; } set { altura = value; } }
         
-        public Persona()
-        {
-            nombre = "roberto";
-            edad = 40;
-            DNI = 28945614;
-            sexo = 'H';
-            peso = 80.5;
-            altura = 1.88;
-        }
+        public Persona() { }
 
         public Persona(string nombre, int edad, char sexo)
         {
             this.nombre = nombre;
             this.edad = edad;
-            DNI = 28945614;
             this.sexo = sexo;
-            peso = 80.5;
-            altura = 1.88;
         }
 
         public Persona(string nombre, int edad, char sexo, double peso, double altura)
@@ -96,20 +85,19 @@ namespace ej2
 
         public int generaDNI()
         {
-            Random aleatorio = new Random();
-            int dni;
-            dni = aleatorio.Next(00000001, 99999999);
-
-            if (dni % 2 == 0)
+            char[] letras = { 'T', 'R', 'W', 'A', 'G', 'M', 'Y', 'F', 'P', 'D', 'X', 'B', 'N', 'J', 'Z', 'S', 'Q', 'V', 'H', 'L', 'C', 'K', 'E' };
+            Random r = new Random();
+            int dienai = r.Next(00000000, 99999999);
+            for (int i = 0; i <= 23; i++)
             {
-                sexo = 'H';
-            }
-            else
-            {
-                sexo = 'M';
+                if (dienai % 23 == i)
+                {
+                    Dni = dienai.ToString();
+                    Dni += letras[i];
+                }
             }
 
-            return dni;
+            return Dni;
         }
     }
 }
