@@ -15,52 +15,61 @@ namespace ej8
             List<Aula> aula = new List<Aula>();
 
             int contador = 0, contH = 0, contM = 0;
-            for (int i = 0; i < 1; i++)
+            profesores.Add(new Profesores("Pepe", 30, "Hombre", "Matemáticas", true));
+            profesores.Add(new Profesores("Juan", 40, "Hombre", "Física", false));
+
+            estudiantes.Add(new Estudiantes("Jose", 17, "Hombre", 5, true, 1));
+            estudiantes.Add(new Estudiantes("Maria", 16, "Mujer", 7, false, 8));
+           
+            aula.Add(new Aula(1, 30, "Matemáticas", "Pepe", false));
+            aula.Add(new Aula(2, 40, "Filosofia", "", false));
+
+
+
+
+            foreach (Estudiantes e in estudiantes)
             {
-                profesores.Add(new Profesores("Pepe", 30, "Hombre", "Matemáticas", true));
-                estudiantes.Add(new Estudiantes("Jose", 17, "Hombre", 5, true, 1));
-                aula.Add(new Aula(1, 30, "Matemáticas", "Pepe", false));
-
-                profesores.Add(new Profesores("Juan", 40, "Hombre", "Física", false));
-                estudiantes.Add(new Estudiantes("Maria", 16, "Mujer", 7, false, 8));
-                aula.Add(new Aula(2, 40, "Filosofia", "", false));
-
-                foreach (Estudiantes e in estudiantes)
+                if (e.Presente)
                 {
-                    if (e.Presente)
-                    {
-                        contador++;
-                    }
+                    contador++;
                 }
             }
-            foreach(Profesores p in profesores)
-            {
-                if (contador <= estudiantes.Count / 2 && p.Disponibilidad == true)
-                {
-                    foreach (Aula a in aula)
-                    {
-                        a.ClaseE = true;
 
-                        if (a.ClaseE == true)
+            foreach (Profesores p in profesores)
+            {
+                if (p.Nombre == "Pepe")
+                {
+                    if (p.Disponibilidad)
+                    {
+                        foreach (Estudiantes e in estudiantes)
                         {
-                            foreach(Estudiantes e in estudiantes)
+                            if (contador <= estudiantes.Count / 2)
                             {
-                                if(e.Sexo == "Hombre")
+                                foreach (Aula a in aula)
                                 {
-                                    contH++;
+                                    if (a.Materia == "Matemáticas")
+                                    {
+                                        a.ClaseE = true;
+
+                                        if (e.Sexo == "Hombre" && e.Calificacion >= 6)
+                                        {
+                                            contH++;
+                                        }
+                                        else if (e.Sexo == "Mujer" && e.Calificacion >= 6)
+                                        {
+                                            contM++;
+                                        }
+                                    }
                                 }
-                                else if(e.Sexo == "Mujer")
-                                {
-                                    contM++;
-                                }
-                            }                            
+                            }
                         }
                     }
                 }
+                break;
             }
 
-            Console.WriteLine("La cantidad de alumnos es " + contH);
-            Console.WriteLine("La cantidad de alumnas es " + contM);
+            Console.WriteLine("La cantidad de alumnos aprobados es " + contH);
+            Console.WriteLine("La cantidad de alumnas aprobados es " + contM);
             Console.ReadKey();
             
 
