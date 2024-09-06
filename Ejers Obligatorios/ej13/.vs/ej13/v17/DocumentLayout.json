@@ -1,0 +1,116 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej13\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej13\\comercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|solutionrelative:comercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej13\\empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|solutionrelative:empleados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej13\\repartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0070866D-7EC2-450C-82FF-AF29008515DC}|ej13.csproj|solutionrelative:repartidor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{57d563b6-44a5-47df-85be-f4199ad6b651}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Comercial.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Comercial.cs",
+              "RelativeDocumentMoniker": "Comercial.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Comercial.cs",
+              "RelativeToolTip": "Comercial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T00:41:00.381Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Repartidor.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Repartidor.cs",
+              "RelativeDocumentMoniker": "Repartidor.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Repartidor.cs",
+              "RelativeToolTip": "Repartidor.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:47:00.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Empleados.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Empleados.cs",
+              "RelativeDocumentMoniker": "Empleados.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Empleados.cs",
+              "RelativeToolTip": "Empleados.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:43:04.753Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej13\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:38:22.305Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
