@@ -15,46 +15,46 @@ namespace ej7
         public double A { get { return a; } set { a = value; } }
         public double B { get { return b; } set { b = value; } }
         public double C { get { return c; } set { c = value; } }
-
-        public Raices(double a, double b, double c) 
+        public Raices(double Aa, double Bb, double Cc)
         {
-            A = a; 
-            B = b; 
-            C = c;
+            a = Aa;
+            b = Bb;
+            c = Cc;
         }
 
-        public void obtenerRaices()
+        public void ObtenerRaices()
         {
-
+            double x1 = (-b + Math.Sqrt(GetDiscriminante())) / (2 * a);
+            double x2 = (-b - Math.Sqrt(GetDiscriminante())) / (2 * a);
+            Console.WriteLine($"x1 = {x1}");
+            Console.WriteLine($"x2 = {x2}");
         }
-        public void obtenerRaiz()
+        public void ObtenerRaiz()
         {
+            double x = (-b) / (2 * a);
 
+            Console.WriteLine($"x = {x}");
         }
-
-        public double getDiscriminate(double a , double b, double c)
+        public double GetDiscriminante()
         {
-            double discriminante = (b * b) - 4 * a * c;
-
-            return discriminante;
+            return Math.Pow(b, 2) - 4 * a * c;
         }
-
-        /*public bool tieneRaices()
+        public bool TieneRaices()
         {
-            bool tieneraices;
-
-            if () { }
-            return tieneraices;
-        }*/
-
-        public void tieneRaiz()
-        {
-
+            return GetDiscriminante() > 0;
         }
-
-        public void calcular(double a, double b, double c)
+        private bool TieneRaiz()
         {
-
+            return GetDiscriminante() == 0;
+        }
+        public void Calcular()
+        {
+            if (TieneRaices())
+                ObtenerRaices();
+            else if (TieneRaiz())
+                ObtenerRaiz();
+            else
+                Console.WriteLine("No tiene soluciones");
         }
     }
 }
