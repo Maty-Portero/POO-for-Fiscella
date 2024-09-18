@@ -6,16 +6,19 @@ using System.Threading.Tasks;
 
 namespace ej15
 {
-    internal class BebidaAzucarada
+    internal class BebidaAzucarada : Productos
     {
-        string origen;
+        float azucar;
+        bool promo;
 
-        public string Origen { get { return origen; } set { origen = value; } }
+        public float Azucar { get { return azucar; } set { azucar = value; } }
+        public bool Promo { get { return promo; } set { promo = value; } }
 
 
-        public BebidaAzucarada(string origen, int id, double litros, double precio, string marca) : base(id, litros, precio, marca)
+        public BebidaAzucarada(float azucar, bool promo, int id, double litros, double precio, string marca) : base(id, litros, precio, marca)
         {
-            this.origen = origen;
+            this.azucar = azucar;
+            this.promo = promo;
         }
     }
 }

@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej15\\almacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|solutionrelative:almacen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej15\\bebidaazucarada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|solutionrelative:bebidaazucarada.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej15\\aguamineral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\aguamineral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|solutionrelative:aguamineral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej15\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|solutionrelative:productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2B660220-10C0-4DF1-BD47-AC7282C66C83}|ej15.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -59,19 +63,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Almacen.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\Almacen.cs",
+              "RelativeDocumentMoniker": "Almacen.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\Almacen.cs",
+              "RelativeToolTip": "Almacen.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T20:57:06.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BebidaAzucarada.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\BebidaAzucarada.cs",
               "RelativeDocumentMoniker": "BebidaAzucarada.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\BebidaAzucarada.cs",
               "RelativeToolTip": "BebidaAzucarada.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAAABQAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T12:20:21.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AguaMineral.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\AguaMineral.cs",
               "RelativeDocumentMoniker": "AguaMineral.cs",
@@ -84,7 +101,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Productos.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\Productos.cs",
               "RelativeDocumentMoniker": "Productos.cs",
@@ -97,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej15\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

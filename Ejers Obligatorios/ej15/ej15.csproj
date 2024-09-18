@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AguaMineral.cs" />
+    <Compile Include="Almacen.cs" />
     <Compile Include="BebidaAzucarada.cs" />
     <Compile Include="Productos.cs" />
     <Compile Include="Program.cs" />
