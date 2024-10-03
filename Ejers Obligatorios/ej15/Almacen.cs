@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+<<<<<<< HEAD
 using System.IO;
+=======
+>>>>>>> 430fe4902fd1d86a674188b0e1b9f34ed2ab69d6
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +12,7 @@ namespace ej15
 {
     internal class Almacen
     {
+<<<<<<< HEAD
         List<List<Productos>> estanterias = new List<List<Productos>>();
         List<BebidaAzucarada> bebAzucar = new List<BebidaAzucarada>();
         List<AguaMineral> aguitaMine = new List<AguaMineral>();
@@ -107,5 +111,8 @@ namespace ej15
         {
 
         }
+=======
+
+>>>>>>> 430fe4902fd1d86a674188b0e1b9f34ed2ab69d6
     }
 }

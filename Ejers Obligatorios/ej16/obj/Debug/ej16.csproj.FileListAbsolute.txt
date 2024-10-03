@@ -1,0 +1,7 @@
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\bin\Debug\ej16.exe.config
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\bin\Debug\ej16.exe
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\bin\Debug\ej16.pdb
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\obj\Debug\ej16.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\obj\Debug\ej16.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\obj\Debug\ej16.exe
+C:\xampp\htdocs\Mati\POO-for-Fiscella\Ejers Obligatorios\ej16\obj\Debug\ej16.pdb

@@ -8,14 +8,21 @@ namespace ej15
 {
     internal class BebidaAzucarada : Productos
     {
-        string origen;
+        float azucar;
+        bool promo;
 
-        public string Origen { get { return origen; } set { origen = value; } }
+        public float Azucar { get { return azucar; } set { azucar = value; } }
+        public bool Promo { get { return promo; } set { promo = value; } }
 
 
+<<<<<<< HEAD
         public BebidaAzucarada(string origen, int id, double litros, double precio, string marca) : base (id, litros, precio, marca)
+=======
+        public BebidaAzucarada(float azucar, bool promo, int id, double litros, double precio, string marca) : base(id, litros, precio, marca)
+>>>>>>> 430fe4902fd1d86a674188b0e1b9f34ed2ab69d6
         {
-            this.origen = origen;
+            this.azucar = azucar;
+            this.promo = promo;
         }
     }
 }
