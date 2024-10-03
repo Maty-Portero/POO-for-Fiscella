@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ej5
 {
-    internal class Serie
+    internal class Serie : IEntregable
     {
         string titulo = "";
         int numeroTemporadas = 3;
@@ -61,9 +61,33 @@ namespace ej5
             return Entregado;
         }
 
-        public void compareTo(Object a)
+        public IEntregable compareTo(IEntregable a)
         {
-            NumeroTemporadas = int.Parse(string.Format("{0}", a));
+            if (a is Videojuego)
+            {
+                Videojuego z = (Videojuego)a;
+                if (z.GetHorasEstimadas() > this.numeroTemporadas)
+                {
+                    return z;
+                }
+                else
+                {
+                    return this;
+                }
+            }
+            else if (a is Serie)
+            {
+                Serie z = (Serie)a;
+                if (z.GetNumeroTemporadas() > this.numeroTemporadas)
+                {
+                    return z;
+                }
+                else
+                {
+                    return this;
+                }
+            }
+            return null;
         }
 
     }

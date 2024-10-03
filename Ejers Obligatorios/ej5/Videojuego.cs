@@ -9,11 +9,11 @@ namespace ej5
 {
     internal class Videojuego : IEntregable
     {
-        string titulo = "";
+        string titulo;
         int horasEstimadas = 10;
         bool entregado = false;
-        string genero = "";
-        string compañia = "";
+        string genero;
+        string compañia;
 
         public string Titulo { get { return titulo; } set { titulo = value; } }
         public int HorasEstimadas { get { return horasEstimadas; } set { horasEstimadas = value; } }
@@ -61,10 +61,35 @@ namespace ej5
         {
             return Entregado;
         }
-
-        public void compareTo(Object a)
+        public IEntregable compareTo(IEntregable a)
         {
-            HorasEstimadas = int.Parse(string.Format("{0}", a));
+            if (a is Videojuego)
+            {
+                Videojuego z = (Videojuego) a;
+                if (z.GetHorasEstimadas() > this.horasEstimadas)
+                {
+                    return z;
+                }
+                else
+                {
+                    return this;
+                }
+            }
+            else if (a is Serie)
+            {
+                Serie z = (Serie)a;
+                if (z.GetNumeroTemporadas() > this.horasEstimadas)                    
+                {
+                    return z;
+                }
+                else
+                {
+                    return this;
+                }
+            }
+            return null;
         }
+
+
     }
 }

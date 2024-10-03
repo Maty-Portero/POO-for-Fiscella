@@ -13,12 +13,17 @@ namespace ej5
             List<Serie> listillaSeries = new List<Serie>();
             List<Videojuego> listillaVideojuego = new List<Videojuego>();
 
-            for (int i = 0; i < 5; i++)
-            {
-                listillaSeries.Add(new Serie());
-                listillaVideojuego.Add(new Videojuego());
-            }        
-                      
+            //for (int i = 0; i < 5; i++)
+            //{
+            listillaSeries.Add(new Serie("a", 5, "b", "c"));
+            listillaSeries.Add(new Serie("d", 6, "e", "f"));
+            listillaVideojuego.Add(new Videojuego("m", 20, "n", "ñ"));
+            listillaVideojuego.Add(new Videojuego("o", 5, "p", "q"));
+            listillaVideojuego.Add(new Videojuego("o", 80, "p", "q"));
+            listillaVideojuego.Add(new Videojuego("o", 5, "p", "q"));
+            //}        
+
+
             foreach (Serie serie in listillaSeries)
             {
                 serie.entregar();
@@ -49,7 +54,21 @@ namespace ej5
                 }
             }
 
-            Console.WriteLine();
+            int num = listillaVideojuego[0].GetHorasEstimadas();
+
+            foreach (Videojuego juego in listillaVideojuego)
+            {
+                if(num >= juego.GetHorasEstimadas())
+                {
+                    Console.WriteLine($"{num}");
+                }
+                else
+                {
+                    Console.WriteLine("nt");
+                }
+            }
+            
+            Console.ReadKey();
         }
     }
 }
