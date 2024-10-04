@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|c:\\xampp\\htdocs\\portero 5\u00B010\u00B0\\poo-for-fiscella\\ejers obligatorios\\ej5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:Serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:Videojuego.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:Serie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|c:\\xampp\\htdocs\\portero 5\u00B010\u00B0\\poo-for-fiscella\\ejers obligatorios\\ej5\\ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:ientregable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|c:\\xampp\\htdocs\\portero 5\u00B010\u00B0\\poo-for-fiscella\\ejers obligatorios\\ej5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24E2D8DD-01C8-4F11-84E8-616EF6B835FB}|ej5.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +26,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Serie.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Serie.cs",
+              "RelativeDocumentMoniker": "Serie.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Serie.cs",
+              "RelativeToolTip": "Serie.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAowE4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T19:43:00.577Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
@@ -62,52 +76,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "IEntregable.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\IEntregable.cs",
               "RelativeDocumentMoniker": "IEntregable.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\IEntregable.cs",
               "RelativeToolTip": "IEntregable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-12T18:23:00.724Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Videojuego.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Videojuego.cs",
               "RelativeDocumentMoniker": "Videojuego.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Videojuego.cs",
               "RelativeToolTip": "Videojuego.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAgwFgAAAANAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAmwFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T19:54:53.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Serie.cs",
-              "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Serie.cs",
-              "RelativeDocumentMoniker": "Serie.cs",
-              "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Serie.cs",
-              "RelativeToolTip": "Serie.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAE4AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T19:43:00.577Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Portero 5\u00B010\u00B0\\POO-for-Fiscella\\Ejers Obligatorios\\ej5\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAgwDoAAAAMAAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAiwEYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T19:42:42.031Z",
               "EditorCaption": ""

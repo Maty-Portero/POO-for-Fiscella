@@ -8,13 +8,13 @@ namespace ej16
 {
     internal class Program
     {
+        
         static void Main(string[] args)
         {
+            AgendaContactos agenda = new AgendaContactos();
             var menus = new Dictionary<string, string[]>
             {
-                { " Archivo ", new[] { "Nuevo Cliente", "Modificar Cliente", "Listar Clientes", "Salir" } },
-                { " Editar " , new[] { "Nuevo Producto", "Modificar Producto", "Eliminar Producto", "Listar Producto", "Salir" } },
-                { " Empresa ", new[] { "Nueva Empresa", "Modificar Empresa", "Eliminar Empresa", "Listar Empresa", "Salir" } }
+                { " Archivo ", new[] { "Nuevo Contacto", "Modificar Contacto", "Listar Contacto", "Eliminar Contacto", "Salir" } }
             };
 
             var menuPrincipal = new MenuPrincipal(menus);
@@ -32,13 +32,58 @@ namespace ej16
                             Environment.Exit(0);
                         });
                     }
-                    else
+                    else if(opcion == "Nuevo Contacto")
                     {
                         menuPrincipal.AsignarAccion(opcion, () =>
                         {
                             Console.Clear();
-                            Console.WriteLine($"Ejecutando {opcion}");
-                            Console.WriteLine("Presione cualquier tecla para continuar...");
+                            Console.WriteLine($"Creando un {opcion}");
+                            Console.WriteLine("Nombre: ");
+                            string nombre = Console.ReadLine();
+                            Console.WriteLine("Telefono: ");
+                            string fono = Console.ReadLine();
+                            agenda.aniadirContacto(nombre, fono);
+
+                            Console.WriteLine("Contacto agregado con éxito");
+
+                            Console.ReadKey();
+                        });
+                    }
+                    else if (opcion == "Modificar Contacto")
+                    {
+                        menuPrincipal.AsignarAccion(opcion, () =>
+                        {
+                            Console.Clear();
+                            Console.WriteLine($"Buscando un Contacto para modificar");
+                            Console.WriteLine("Telefono: ");
+                            string fono = Console.ReadLine();
+                            Contacto c = agenda.buscaContacto(fono);
+                            if (c != null)
+                            {
+                                Console.WriteLine(" ");
+                                Console.WriteLine("Nombre nuevo: ");
+                                c.Nombre = Console.ReadLine();
+                                Console.WriteLine("Telefono nuevo: ");
+                                c.Telefono = Console.ReadLine();
+                                
+                                Console.WriteLine(" ");
+                                Console.WriteLine("Contacto modificado con éxito");
+                            }
+                            else
+                            {
+                                Console.WriteLine("No se encontró");
+                            }
+                            Console.ReadKey();
+                        });
+                    }
+                    else if (opcion == "Listar Contacto")
+                    {
+                        menuPrincipal.AsignarAccion(opcion, () =>
+                        {
+                            Console.Clear();
+                            Console.WriteLine($"Listado de Contactos");
+                            agenda.listarContacto();
+
                             Console.ReadKey();
                         });
                     }

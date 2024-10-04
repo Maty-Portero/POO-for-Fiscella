@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -25,15 +26,15 @@ namespace ej16
                     Console.WriteLine("Ya existe un contacto con ese nombre");
         }
 
-        public void aniadirContacto(string nombre, string telefono)
-        {
+        public bool aniadirContacto(string nombre, string telefono)
+        {            
             if (contadorContactos <= 10)
             {
-                agendaContactos[contadorContactos] = new Contacto(nombre, telefono);
+                agendaContactos.Add(new Contacto(nombre, telefono));
                 contadorContactos++;
+                return true;
             }
-            else
-                Console.WriteLine("La agenda está llena");
+            return false;
         }
 
         public void listarContacto()
@@ -42,24 +43,18 @@ namespace ej16
                 Console.WriteLine("No hay contactos");
             else
                 for (int i = 0; i < contadorContactos; i++)
-                    Console.WriteLine(agendaContactos[i].Nombre + "-" + "Tel.:" + agendaContactos[i].Telefono);
+                    Console.WriteLine(agendaContactos[i].Nombre + "-" + agendaContactos[i].Telefono);
         }
 
-        public void buscaContacto(string nombre)
+        public Contacto buscaContacto(string telefono)
         {
-            bool encontrado = false;
-
-            for (int i = 0; i < contadorContactos; i++)
-                if (nombre.Equals(agendaContactos[i].Nombre))
+            for (int i = 0; i < contadorContactos; i++) { 
+                if (telefono.Equals(agendaContactos[i].Telefono))
                 {
-                    Console.WriteLine("Tel.:" + agendaContactos[i].Telefono);
-                    encontrado = true;
+                    return agendaContactos[i];
                 }
-
-            if (!encontrado)
-            {
-                Console.WriteLine("Contacto Inexistente");
             }
+            return null;
         }
 
         public void eliminarContacto(string nombre, string telefono)
