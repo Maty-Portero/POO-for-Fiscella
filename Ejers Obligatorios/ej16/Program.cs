@@ -45,6 +45,9 @@ namespace ej16
                             agenda.aniadirContacto(nombre, fono);
 
                             Console.WriteLine("Contacto agregado con éxito");
+                            Console.WriteLine(" ");
+
+                            Console.WriteLine("Presione cualquier tecla para continuar...");
 
                             Console.ReadKey();
                         });
@@ -68,10 +71,15 @@ namespace ej16
                                 
                                 Console.WriteLine(" ");
                                 Console.WriteLine("Contacto modificado con éxito");
+                                Console.WriteLine(" ");
+
+                                Console.WriteLine("Presione cualquier tecla para continuar...");
                             }
                             else
                             {
                                 Console.WriteLine("No se encontró");
+                                Console.WriteLine(" ");
+                                Console.WriteLine("Presione cualquier tecla para continuar...");
                             }
                             Console.ReadKey();
                         });
@@ -84,6 +92,32 @@ namespace ej16
                             Console.WriteLine($"Listado de Contactos");
                             agenda.listarContacto();
 
+                            Console.ReadKey();
+                        });
+                    }
+                    else if(opcion == "Eliminar Contacto")
+                    {
+                        menuPrincipal.AsignarAccion(opcion, () =>
+                        {
+                            Console.Clear();
+                            Console.WriteLine($"Buscando un Contacto para eliminar");
+                            Console.WriteLine("Telefono: ");
+                            string fono = Console.ReadLine();
+                            Contacto c = agenda.buscaContacto(fono);
+                            if(c != null)
+                            {
+                                agenda.eliminarContacto(c);
+
+                                Console.WriteLine("Contacto eliminado con éxito");
+                                Console.WriteLine(" ");
+                                Console.WriteLine("Presione cualquier tecla para continuar...");
+                            }
+                            else
+                            {
+                                Console.WriteLine("No se encontró");
+                                Console.WriteLine(" ");
+                                Console.WriteLine("Presione cualquier tecla para continuar...");
+                            }
                             Console.ReadKey();
                         });
                     }

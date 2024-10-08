@@ -43,7 +43,7 @@ namespace ej16
                 Console.WriteLine("No hay contactos");
             else
                 for (int i = 0; i < contadorContactos; i++)
-                    Console.WriteLine(agendaContactos[i].Nombre + "-" + agendaContactos[i].Telefono);
+                    Console.WriteLine(agendaContactos[i].Nombre + " - " + agendaContactos[i].Telefono);
         }
 
         public Contacto buscaContacto(string telefono)
@@ -57,19 +57,9 @@ namespace ej16
             return null;
         }
 
-        public void eliminarContacto(string nombre, string telefono)
+        public void eliminarContacto(Contacto c)
         {
-            bool encontrado = false;
-
-            if (contadorContactos == 0)
-                Console.WriteLine("No hay contactos");
-            else
-                for (int i = 0; i < contadorContactos; i++)
-                    if (nombre.Equals(agendaContactos[i].Nombre))
-                    {
-                        agendaContactos.Remove(agendaContactos[i]);
-                        encontrado = true;
-                    }
+            agendaContactos.Remove(c);
         }
 
         public void agendaLlena()

@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{4E806CD7-61E7-4F0A-87C4-38CF0FC86CF1}|proyecto_menu\\proyecto_menu.csproj|solutionrelative:proyecto_menu\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4E806CD7-61E7-4F0A-87C4-38CF0FC86CF1}|proyecto_menu\\proyecto_menu.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\menu\\proyecto_menu\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4E806CD7-61E7-4F0A-87C4-38CF0FC86CF1}|proyecto_menu\\proyecto_menu.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\menu\\proyecto_menu\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4E806CD7-61E7-4F0A-87C4-38CF0FC86CF1}|proyecto_menu\\proyecto_menu.csproj|solutionrelative:proyecto_menu\\menuprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -79,7 +79,8 @@
               "RelativeToolTip": "proyecto_menu\\Program.cs",
               "ViewState": "AgIAAB8AAAAAAAAAAAAgwDUAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T23:10:43.679Z"
+              "WhenOpened": "2024-09-23T23:10:43.679Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -91,7 +92,8 @@
               "RelativeToolTip": "proyecto_menu\\MenuNavegacion.cs",
               "ViewState": "AgIAAFkAAAAAAAAAAAAwwGQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T23:10:43.69Z"
+              "WhenOpened": "2024-09-23T23:10:43.69Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -103,7 +105,8 @@
               "RelativeToolTip": "proyecto_menu\\MenuPrincipal.cs",
               "ViewState": "AgIAAGMAAAAAAAAAAAAmwHMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-23T23:10:43.719Z"
+              "WhenOpened": "2024-09-23T23:10:43.719Z",
+              "EditorCaption": ""
             }
           ]
         }
