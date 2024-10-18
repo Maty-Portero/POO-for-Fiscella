@@ -9,18 +9,16 @@ namespace ej12
     internal class Jugador
     {
         int id;
-        string nombre;
+        string nombre = "Jugador";
         bool vivo = true;
 
         public int Id { get { return id; } set { id = value; } }
         public string Nombre { get { return nombre; } set { nombre = value; } }
         public bool Vivo { get { return vivo; } set { vivo = value; } }
 
-        public Jugador(int id, string nombre, bool vivo)
+        public Jugador(int id)
         {
             this.id = id;
-            this.nombre = nombre;
-            this.vivo = vivo;
         }
 
         public bool disparar(Revolver r)

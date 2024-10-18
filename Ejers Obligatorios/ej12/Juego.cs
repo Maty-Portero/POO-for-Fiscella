@@ -9,7 +9,13 @@ namespace ej12
     internal class Juego
     {
         List<Jugador> jugadorList = new List<Jugador>();
-        Revolver r = new Revolver();
+        Revolver r;
+
+        public Juego(List<Jugador> jugadorList, Revolver r)
+        {
+            this.jugadorList = jugadorList;
+            this.r = r;
+        }
 
         public bool finJuego()
         {
@@ -29,7 +35,19 @@ namespace ej12
 
         public void ronda()
         {
-
+            foreach (var j in jugadorList)
+            {
+                if (j.disparar(r) != true)
+                {
+                    r.siguienteBala();
+                    Console.WriteLine("El " + j.Nombre + j.Id + " esta más vivazo que Mirtha Legrand.");
+                }
+                else
+                {
+                    r.siguienteBala();
+                    Console.WriteLine("El " + j.Nombre + j.Id + " esta más muerto que Perón.");
+                }
+            }
         }
     }
 }
