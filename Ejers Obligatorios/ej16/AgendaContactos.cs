@@ -39,16 +39,16 @@ namespace ej16
 
         public void listarContacto()
         {
-            if (contadorContactos == 0)
+            if (agendaContactos.Count == 0)
                 Console.WriteLine("No hay contactos");
             else
-                for (int i = 0; i < contadorContactos; i++)
+                for (int i = 0; i < agendaContactos.Count; i++)
                     Console.WriteLine(agendaContactos[i].Nombre + " - " + agendaContactos[i].Telefono);
         }
 
         public Contacto buscaContacto(string telefono)
         {
-            for (int i = 0; i < contadorContactos; i++) { 
+            for (int i = 0; i < agendaContactos.Count; i++) { 
                 if (telefono.Equals(agendaContactos[i].Telefono))
                 {
                     return agendaContactos[i];
