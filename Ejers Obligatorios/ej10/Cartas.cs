@@ -1,30 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ej10
 {
-    internal class Cartas
+    internal class Carta
     {
-        int numero;
+        int num;
         string palo;
-        int cantCartas = 40;
 
-        public int Numero { get { return numero; } set { numero = value; } }
+        public int Num { get { return num; } set { num = value; } }
         public string Palo { get { return palo; } set { palo = value; } }
 
-        public Cartas(int numero, string palo) 
+        public Carta(int N, string P)
         {
-            this.numero = numero;
-            this.palo = palo;
+            num = N;
+            palo = P;
         }
-
-        public void Barajar()
-        {
-
-        }
-        
     }
 }

@@ -1,0 +1,14 @@
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\bin\Debug\ej11.exe.config
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\bin\Debug\ej11.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\bin\Debug\ej11.pdb
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.csproj.AssemblyReference.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.csproj.CoreCompileInputs.cache
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.exe
+C:\Users\BAUTI\Documents\GitHub\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.pdb
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\bin\Debug\ej11.exe.config
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\bin\Debug\ej11.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\bin\Debug\ej11.pdb
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.csproj.AssemblyReference.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.csproj.CoreCompileInputs.cache
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.exe
+F:\bauchi\WinnieThePOOh\ejerciciosObligatorios\ej11\obj\Debug\ej11.pdb

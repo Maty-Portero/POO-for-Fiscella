@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ej18
+namespace ej11
 {
-    internal class Program
+    internal interface IResultado
     {
-        static void Main(string[] args)
-        {
-        }
+        string Resultado(Random r);
     }
 }
