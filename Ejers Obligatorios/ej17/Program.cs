@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace ej17
 {
+
     internal class Program
     {
         static void Main(string[] args)
         {
+           
         }
     }
-}
+}   

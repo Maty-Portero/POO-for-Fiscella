@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C8B3084E-504E-47FF-92BA-116737C1DFB1}</ProjectGuid>
+    <ProjectGuid>{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>ej10</RootNamespace>
     <AssemblyName>ej10</AssemblyName>
@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Baraja.cs" />
     <Compile Include="Cartas.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

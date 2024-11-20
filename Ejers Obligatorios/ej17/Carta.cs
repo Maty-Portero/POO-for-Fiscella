@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,41 +8,22 @@ namespace ej17
 {
     internal class Carta
     {
-        PalosBarFrancesa paloFra;
-        PalosBarEspañola paloEsp;
+        public enum PalosBarEspañola { oro, copa, espada, bastos};
+        public enum PalosBarFrancesa { diamante, pica, corazon, trebol};
 
-        bool esCartaRoja = false;
-        bool esCartaNegra = false;
-
-        public bool EsCartaNegra { get { return esCartaNegra; } set { esCartaNegra = value;  } }
-        public bool EsCartaRoja { get { return esCartaRoja; } set { esCartaRoja = value; } }
-
-        enum PalosBarEspañola { Oros, Copas, Espadas, Bastos}
-        enum PalosBarFrancesa { Diamantes, Picas, Corazones, Treboles}
-
-        public void cartaRoja()
+        public class CartaGenerico<T>
         {
-            if (paloFra == PalosBarFrancesa.Corazones || paloFra == PalosBarFrancesa.Diamantes)
+            T palo;
+            int valor;
+
+            public T Palo { get { return palo; } set { palo = value; } }
+            public int Valor { get { return valor; } set { valor = value; } }
+
+            public CartaGenerico(T palo, int valor)
             {
-                EsCartaRoja = true;
+                this.palo = palo;
+                this.valor = valor;
             }
-        }
-
-        public void cartaNegra()
-        {
-            if (paloFra == PalosBarFrancesa.Treboles || paloFra == PalosBarFrancesa.Picas)
-            {
-                EsCartaNegra = true;
-            }
-        }
-
-        public void barFrancesa()
-        {
-            
-        }
-
-        public void barEspañola()
-        {
 
         }
     }

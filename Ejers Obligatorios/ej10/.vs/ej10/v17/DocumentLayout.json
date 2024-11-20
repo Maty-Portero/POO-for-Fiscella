@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C8B3084E-504E-47FF-92BA-116737C1DFB1}|ej10.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8B3084E-504E-47FF-92BA-116737C1DFB1}|ej10.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}|ej10.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}|ej10.csproj|solutionrelative:baraja.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C8B3084E-504E-47FF-92BA-116737C1DFB1}|ej10.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C8B3084E-504E-47FF-92BA-116737C1DFB1}|ej10.csproj|solutionrelative:cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}|ej10.csproj|C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}|ej10.csproj|solutionrelative:cartas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}|ej10.csproj|c:\\xampp\\htdocs\\mati\\poo-for-fiscella\\ejers obligatorios\\ej10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4E333D4C-BCD5-4D7C-AF01-D6A2435682C9}|ej10.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,28 +54,41 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Baraja.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\Baraja.cs",
+              "RelativeDocumentMoniker": "Baraja.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\Baraja.cs",
+              "RelativeToolTip": "Baraja.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T22:32:59.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Cartas.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\Cartas.cs",
               "RelativeDocumentMoniker": "Cartas.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\Cartas.cs",
               "RelativeToolTip": "Cartas.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:13:47.255Z",
+              "WhenOpened": "2024-11-20T22:32:18.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\xampp\\htdocs\\Mati\\POO-for-Fiscella\\Ejers Obligatorios\\ej10\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABoAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-05T23:08:38.354Z",
+              "WhenOpened": "2024-11-20T22:31:42.979Z",
               "EditorCaption": ""
             }
           ]

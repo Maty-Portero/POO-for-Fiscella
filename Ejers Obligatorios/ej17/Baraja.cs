@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,19 +7,22 @@ using System.Threading.Tasks;
 
 namespace ej17
 {
-    abstract class Baraja : Carta
+    abstract class Baraja
     {
         int numTotal;
-        int numXpalo;
+        int numXPalo;
 
-        public int NumTotal { get { return numTotal; } set { numTotal = value;  } }
-        public int NumXpalo { get { return numXpalo; } set { numXpalo = value; } }
+        public int NumTotal {  get { return numTotal; } set { numTotal = value; } }
+        public int NumXPalo{  get { return numXPalo; } set { numXPalo = value; } }
 
-        public void crearBaraja()
+        public Baraja(int numTotal, int numXPalo) 
         {
-            
+            this.numTotal = numTotal;
+            this.numXPalo = numXPalo;
         }
 
-        
+        //abstract void crearBaraja()
+        //{
+        //}
     }
 }
